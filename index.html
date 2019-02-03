@@ -4,14 +4,75 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
     <!-- Bootstrap ref. -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     
     <title>Portfolio SP</title>
-</head>
+
+    <style>
+    .jumbotron {
+        margin-bottom: 0;
+        /* height: 100vh; */
+    }
+
+    .img-description {
+        margin-top: 1em;
+    }
+
+    .img-thumb {
+        width: 100%;
+        margin-top: 0.5em;
+    }
+
+    .productplate {
+        text-align: center;
+        border: solid red;
+    }
+    
+    .bgrdcolor {
+        background-color: grey;
+        padding: 0.5em;
+    }
+    </style>
 <body>
-    <div class="container-fluid d-flex justify-content-center">
-            <h1>Portfolio in Bootstrap</h1>
+    <div class="jumbotron">
+        <div class="container text-center">
+            <p>Welcome to </p>
+            <h1>My Portfolio</h1>      
+            <p>Sebastiaan Prins, Junior Webdeveloper</p>
+        </div>
     </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4 productplate">
+                <div class="container bgrdcolor">
+                    <h3>Portfolio</h3>
+                    <img src="pics/test-img.jpg" class="img-thumb">
+                    <p class="img-description">Lorem ipsum dolor..</p>
+                    <p>Ut enim ad..</p>
+                </div>
+            </div>
+            <div class="col-sm-4 productplate">
+                <div class="container bgrdcolor">
+                    <h3>Portfolio</h3>
+                    <img src="pics/test-img.jpg" class="img-thumb">
+                    <p class="img-description">Lorem ipsum dolor..</p>
+                    <p>Ut enim ad..</p>
+                </div>
+            </div>
+            <div class="col-sm-4 productplate">
+                <div class="container bgrdcolor">
+                    <h3>Portfolio</h3>
+                    <img src="pics/test-img.jpg" class="img-thumb">
+                    <p class="img-description">Lorem ipsum dolor..</p>
+                    <p>Ut enim ad..</p>
+                </div>
+            </div>
+        </div>
+    </div>
+            
+
 </body>
 </html>
