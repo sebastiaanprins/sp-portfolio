@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+    <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -7,72 +7,66 @@
     
     <!-- Bootstrap ref. -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-    
+    <link rel="stylesheet" href="main.css">
     <title>Portfolio SP</title>
-
-    <style>
-    .jumbotron {
-        margin-bottom: 0;
-        /* height: 100vh; */
-    }
-
-    .img-description {
-        margin-top: 1em;
-    }
-
-    .img-thumb {
-        width: 100%;
-        margin-top: 0.5em;
-    }
-
-    .productplate {
-        text-align: center;
-        border: solid red;
-    }
-    
-    .bgrdcolor {
-        background-color: grey;
-        padding: 0.5em;
-    }
-    </style>
 <body>
-    <div class="jumbotron">
-        <div class="container text-center">
-            <p>Welcome to </p>
-            <h1>My Portfolio</h1>      
-            <p>Sebastiaan Prins, Junior Webdeveloper</p>
-        </div>
+<!-- Welcome-tron -->
+<div class="jumbotron">
+    <div class="container text-center">
+        <p class="headerbegin">Welcome to </p>
+        <h1>My Portfolio</h1>
+        <p class="headerend">Sebastiaan Prins - Junior Webdeveloper</p>
     </div>
+    <div class="arrowscroll">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+</div>
 
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-4 productplate">
+<!-- navbar -->
+<nav class="navbar navbar-expand-sm bg-dark sticky-top">
+    <a class="navbar-brand" href="">
+        <img src="pics/sp-logo.jpg" alt="Logo">
+    </a>
+    <ul class="navbar-nav">
+        <li class="nav-item">
+            <a class="nav-link" href="#">My Projects</a>
+        </li>
+    </ul>
+</nav>
+
+<!-- portfolio products -->
+<div class="container">
+    <div class="row">
+        <div class="col-sm-4 productplate">
+            <a href="#" onclick="return false;">
                 <div class="container bgrdcolor">
                     <h3>Portfolio</h3>
-                    <img src="pics/test-img.jpg" class="img-thumb">
-                    <p class="img-description">Lorem ipsum dolor..</p>
-                    <p>Ut enim ad..</p>
+                    <img src="pics/test-img.jpg" class="img-thumb" alt="Image Portfolio Product">
+                    <p class="img-description">Concepts: CSS /Bootstrap</p>
+                    <p>Actuallly, this first one IS my portfolio</p>
                 </div>
-            </div>
-            <div class="col-sm-4 productplate">
-                <div class="container bgrdcolor">
-                    <h3>Portfolio</h3>
-                    <img src="pics/test-img.jpg" class="img-thumb">
-                    <p class="img-description">Lorem ipsum dolor..</p>
-                    <p>Ut enim ad..</p>
-                </div>
-            </div>
-            <div class="col-sm-4 productplate">
-                <div class="container bgrdcolor">
-                    <h3>Portfolio</h3>
-                    <img src="pics/test-img.jpg" class="img-thumb">
-                    <p class="img-description">Lorem ipsum dolor..</p>
-                    <p>Ut enim ad..</p>
-                </div>
+            </a>
+        </div>
+        <div class="col-sm-4 productplate">
+            <div class="container bgrdcolor">
+                <h3>Personal Learning Map</h3>
+                <img src="pics/test-img.jpg" class="img-thumb">
+                <p class="img-description">Concepts: ...</p>
+                <p>Process description Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis quae corporis molestiae asperiores officia rem exercitationem nulla! Adipisci consequuntur excepturi blanditiis atque aut nam ratione hic. Numquam ipsum reprehenderit perferendis eaque officia quod voluptas, debitis cum dignissimos necessitatibus at placeat, porro quasi, in architecto! Inventore, nihil? Assumenda magnam deleniti esse dicta quos. Perferendis fuga odit ducimus qui eos. Magnam dolores quam ea, quod quisquam sequi unde vitae nisi ex iste consectetur nemo laudantium saepe, maiores, asperiores totam consequatur quo accusantium.</p>
             </div>
         </div>
-    </div>
-            
+        <div class="col-sm-4 productplate">
+            <div class="container bgrdcolor">
+                <h3>Product 3</h3>
+                <img src="pics/test-img.jpg" class="img-thumb">
+                <p class="img-description">Concepts: ...</p>
+                <p>UDescription product</p>
+            </div>
+        </div>
+    </div> 
+</div>
 
 </body>
 </html>
