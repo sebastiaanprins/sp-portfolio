@@ -1,45 +1,10 @@
-body {
-    background-color: rgba(21, 61, 39, 0.250)
-}
-.jumbotron {
-    background: url('pics/bg-jumbo.png') no-repeat center center;
-    margin-bottom: 0;
-    height: 100vh;
-    border-radius: 0;
-}
-
-.container>p ,h1 {
-    color: white;
-}
-
-#headerbegin {
-    font-size: 5em;
-    margin-bottom: 0.5em;
-}
-
+/* headers and general styles ////////////////// */
 h1 {
     font-size: 6em;
     font-family: "Courier New", Courier, monospace;
     letter-spacing: 0.2em;
     margin-bottom: 1.8em;
-}
-
-#headerend {
-    font-size: 3em;
-}
-
-.navbar-brand>img {
-    width:45px;
-}
-
-hr {
-    width:600px;
-}
-
-.portfolioproducts {
-    min-height: 100vh;
-}
-
+}   
 h2 {
     font-size: 3em;
     text-align: center;
@@ -47,70 +12,97 @@ h2 {
     letter-spacing: 0.2em;
     padding-top: 0.7em;
 }
+.container>p ,h1 {
+    color: white;
+}
+hr {
+    width:600px;
+}
 
+/* section welcome ////////////////// */
+.jumbotron {
+    background: url('pics/bg-jumbo.png') no-repeat center center;
+    margin-bottom: 0;
+    height: 100vh;
+    border-radius: 0;
+}
+#startheader-1 {
+    font-size: 5em;
+    margin-bottom: 0.5em;
+}
+#startheader-2 {
+    font-size: 3em;
+}
+.navbar-brand>img {
+    width:45px;
+}
+
+/* portfolio products ////////////////// */
+#portfolio-bg {
+    background-color: rgba(196, 206, 200);
+}
+.portfolioproducts {
+    min-height: 100vh;
+}
+#portfolio-bg {
+    background-color: rgba(196, 206, 200);
+}
 .portfoliorow {
     margin-top: 2em;
 }
-
+.portfoliorow>.col-sm-4 {
+    margin-bottom: 2em;
+}
 .img-thumb {
     width: 100%;
     margin-top: 0.5em;
 }
-
 .img-description {
     margin-top: 1em;
 }
-
 .portfolioplate {
     text-align: center;
 }
-
-.bgrdcolor {
+.portfolioplatecolor {
     background-color: grey;
     padding: 0.5em;
     transition: transform .2s;
     border-radius: 15px;
+    box-shadow: 20px 20px 50px 1px grey;
 }
-
-.bgrdcolor:hover {
+.portfolioplatecolor:hover {
     transform: scale(1.05);
     transition: transform .2s;
 }
-
 .container a {
     text-decoration: none;
     color: black;
 }
 
-.productlink {
-    display: block;
-    color: black;
-}
-
-/* curriculum section */
+/* curriculum section ////////////////// */
 .curriculum {
     min-height: 100vh;
     background-color: aliceblue;
 }
 
 .curriculumrow {
-    margin-top: 3.5em;
+    margin-top: 2.5em;
 }
 
 .subjectlist>ul {
     padding-left: 20%;
     list-style-type: none;
     font-size: 1.6em;
+    text-align: right;
 }
 
 .subjectlist>ul>li {
     margin-bottom: 0.4em;
-
+    text-shadow: 1px 1px 5px grey;
 }
-.subjectlist{
-    margin-right: 0;
-    padding-right: 0;
 
+.subjectlist, .progresslist {
+    padding-top: 0.7em;
 }
 
 header {
@@ -119,7 +111,29 @@ header {
     margin-bottom: 0.8em;
 }
 
-/* scroll arow  - fix */
+.progress {
+    height: 4em;
+    background-color: aliceblue;
+}
+
+.progress>img {
+    height: 2.5em;
+    margin-top: 0.8em;
+}
+
+.progress-bar {
+    margin-top: 0.8em;
+    margin-left: 2.5em;
+    box-shadow: 3px 3px 10px blue;
+    font-size: 1.1em;
+}
+
+.subdetailplate>p {
+    padding-left: 10%;
+}
+
+
+/* scroll arow  - fix ////////////////// */
     .arrowscroll {
     position: absolute;
     top: 86vh;
