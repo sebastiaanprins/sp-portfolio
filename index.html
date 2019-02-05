@@ -13,9 +13,9 @@
 <!-- Welcome-tron -->
 <div class="jumbotron">
     <div class="container text-center">
-        <p class="headerbegin">Welcome to </p>
+        <p id="headerbegin">Welcome to</p>
         <h1>My Portfolio</h1>
-        <p class="headerend">Sebastiaan Prins - Junior Webdeveloper</p>
+        <p id="headerend">Sebastiaan Prins - Junior Webdeveloper</p>
     </div>
     <div class="arrowscroll">
         <span></span>
@@ -37,9 +37,12 @@
 </nav>
 
 <!-- portfolio products -->
-<div class="container">
-    <div class="row">
-        <div class="col-sm-4 productplate">
+<div class="container portfolioproducts">
+    <div class="row-fluid">
+        <h2>- Portfolio Products -</h2><hr />
+    </div>
+    <div class="row portfoliorow">
+        <div class="col-sm-4 portfolioplate">
             <a href="#" onclick="return false;">
                 <div class="container bgrdcolor">
                     <h3>Portfolio</h3>
@@ -49,23 +52,73 @@
                 </div>
             </a>
         </div>
-        <div class="col-sm-4 productplate">
+        <div class="col-sm-4 portfolioplate">
             <div class="container bgrdcolor">
-                <h3>Personal Learning Map</h3>
+                <h3>Personal Curriculum</h3>
                 <img src="pics/test-img.jpg" class="img-thumb">
-                <p class="img-description">Concepts: ...</p>
-                <p>Process description Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis quae corporis molestiae asperiores officia rem exercitationem nulla! Adipisci consequuntur excepturi blanditiis atque aut nam ratione hic. Numquam ipsum reprehenderit perferendis eaque officia quod voluptas, debitis cum dignissimos necessitatibus at placeat, porro quasi, in architecto! Inventore, nihil? Assumenda magnam deleniti esse dicta quos. Perferendis fuga odit ducimus qui eos. Magnam dolores quam ea, quod quisquam sequi unde vitae nisi ex iste consectetur nemo laudantium saepe, maiores, asperiores totam consequatur quo accusantium.</p>
+                <p class="img-description">Concepts: CSS</p>
+                <p>A personal learning map during the bootcamp.</p>
             </div>
         </div>
-        <div class="col-sm-4 productplate">
+        <div class="col-sm-4 portfolioplate">
             <div class="container bgrdcolor">
                 <h3>Product 3</h3>
                 <img src="pics/test-img.jpg" class="img-thumb">
                 <p class="img-description">Concepts: ...</p>
-                <p>UDescription product</p>
+                <p>Description product</p>
             </div>
         </div>
     </div> 
+</div>
+
+<div class="container-fluid curriculum">
+    
+    <div class="row-fluid">
+        <h2>- Personal Curriculum -</h2><hr />
+    </div>
+
+    <div class="row curriculumrow">
+
+        <div class="col-sm-8">
+            <header>Progress Subjects</header>
+            <div class="row">
+                <div class="col-5 subjectlist">
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Bootstrap</li>
+                        <li>JavaScript</li>
+                        <li>PHP (OOP)</li>
+                        <li>PHP /MySQL</li>
+                        <li>Laravel</li>
+                        <li>VueJS</li>
+                        <li>QWASP Websecurity</li>
+                        <li>Scrum</li>
+                    </ul>
+                </div>
+                <div class="col-3 border">
+                    <!-- <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Bootstrap</li>
+                        <li>JavaScript</li>
+                        <li>PHP (OOP)</li>
+                        <li>PHP /MySQL</li>
+                        <li>Laravel</li>
+                        <li>VueJS</li>
+                        <li>QWASP Websecurity</li>
+                        <li>Scrum</li>
+                    </ul> -->
+                    
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <!-- <header>Details Subjects</header> -->
+        </div>
+
+    </div>
+
 </div>
 
 </body>
