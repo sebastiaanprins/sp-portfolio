@@ -19,6 +19,8 @@ hr {
     width:600px;
 }
 
+/* sections ////////////////// */
+
 /* section welcome ////////////////// */
 .jumbotron {
     background: url('pics/bg-jumbo.png') no-repeat center center;
@@ -33,19 +35,22 @@ hr {
 #startheader-2 {
     font-size: 3em;
 }
+.navbar-brand {
+    padding: 0;
+}
 .navbar-brand>img {
-    width:45px;
+    height: 60px;
+}
+.navbar {
+    padding: 0;
 }
 
 /* portfolio products ////////////////// */
-#portfolio-bg {
+#bg-portfolio {
     background-color: rgba(196, 206, 200);
 }
 .portfolioproducts {
     min-height: 100vh;
-}
-#portfolio-bg {
-    background-color: rgba(196, 206, 200);
 }
 .portfoliorow {
     margin-top: 2em;
@@ -132,6 +137,9 @@ header {
     padding-left: 10%;
 }
 
+#section2_pcurriculum {
+    padding-bottom: 60px;
+}
 
 /* scroll arow  - fix ////////////////// */
     .arrowscroll {
